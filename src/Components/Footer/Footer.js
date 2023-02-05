@@ -41,8 +41,8 @@ const Footer = props => {
     
             <div className={styles.footerInfo}>
               <div className={styles.infoLeft}>
-                <p>This page was built by Gianluca Jahn with React.</p>
-                <p>Portions of this page are inspired by <span>RAWG, RAWG.io</span>. This page was built solely for educational purposes.</p>
+                <p>This page was built by Mario Alonso Mora with React.</p>
+                <p>I Love videoGames</p>
               </div>
               <div className={styles.infoRight}>
                 <img className={styles.google} src={require("../../Resources/image/googleplaybadge.png")} alt="Google Play Badge" />

@@ -54,7 +54,7 @@ const NavBar = props => {
               onClick={handleHome}
             >
                 <Logo className={styles.svg} style={{ fill: "#fff" }}/>
-                <h3>Game Store</h3>
+                <h3>Tienda de juegos</h3>
             </div>
     
             <div className={styles.pathdiv} id="1"
@@ -103,7 +103,7 @@ const NavBar = props => {
                     <Browse 
                       className={styles.svg} 
                       style={{ fill: "#fff" }}/>
-                    <h3 onClick={handleBrowse}>Browse Store</h3>
+                    <h3 onClick={handleBrowse}>Buscar en la tienda</h3>
                   </div>
                 }
             </div>
@@ -117,7 +117,7 @@ const NavBar = props => {
               onMouseLeave={handleHover}
             >
                 <GitHub className={styles.gh} />
-                <h3>gianlucajahn</h3>
+                <h3>mario-alonso-mora</h3>
             </div>
 
             <div 
@@ -132,7 +132,7 @@ const NavBar = props => {
                   className={styles.svg2} 
                   style={{ fill: cartAmount ? "#90ee90" : "transparent", stroke: cartAmount ? "" : "#fff", strokeWidth: "34px" }}
                 />
-                <h3 onClick={handleOpenCart}>Cart: {cartAmount}</h3>
+                <h3 onClick={handleOpenCart}>Carrito: {cartAmount}</h3>
             </div>
         </div>
       </motion.div>

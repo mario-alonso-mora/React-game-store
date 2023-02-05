@@ -141,7 +141,7 @@ const Home = props => {
                     <div className={styles.left}>
                         <div className={styles.splash}>
                           <h1>Game Store</h1>
-                          <p className={styles.intro}>The best destination to buy new games to competitive prices. 24 hour support, "best price" guarantee and a flawless UX. Wish for more? Tell us <span className={styles.here}>below</span> — or check out our <span className={styles.careers}>careers.</span></p>
+                          <p className={styles.intro}>El mejor destino para comprar juegos nuevos a precios competitivos. Asistencia 24 horas, garantía de "mejor precio" y una experiencia de usuario impecable. ¿Desea más? Cuéntanoslo <span className={styles.here}>below</span> — or check out our <span className={styles.careers}>careers.</span></p>
                         </div>
     
                         <div className={styles.buttons}>
@@ -153,11 +153,11 @@ const Home = props => {
                                 <Dice className={styles.ctaSVG} />
                                 Play Dice
                               </button>
-                              <a href="https://github.com/gianlucajahn/react-ecommerce-store" target="_blank"><button className={styles.cta} aria-label="View Repository">
+                              <a href="https://github.com/mario-alonso-mora" target="_blank"><button className={styles.cta} aria-label="View Repository">
                                 <GitHubLogo className={styles.ctaSVG} />
                                 GitHub
                               </button></a>
-                              <a href="https://www.linkedin.com/in/gianlucajahn/" target="_blank"><button className={`${styles.cta} ${styles.lastChild}`} aria-label="Open LinkedIn">
+                              <a href="https://www.linkedin.com/in/mario-alonso-mora/" target="_blank"><button className={`${styles.cta} ${styles.lastChild}`} aria-label="Open LinkedIn">
                                 <LinkedIn className={`${styles.ctaSVG} ${styles.linkedin}`} />
                                 <span>LinkedIn</span>
                               </button></a>
@@ -166,35 +166,20 @@ const Home = props => {
     
                     <div className={styles.right}>
                         <div className={styles.buttonsRight}>
-                            <h2>Quick Navigation</h2>
+                            <h2>Navegación rápida</h2>
                             <button className={styles.cta} onClick={handleNavGamePage} aria-label="Open a game page">
                               <Game className={styles.ctaSVG} />
-                              Game Page
+                              Página del juego
                             </button>
                             <button className={styles.cta} onClick={handleNavNotFoundPage} aria-label="Open 404 page">
                               <NotFound className={styles.ctaSVG} />
-                              404 Page
+                              Pagina 404 error
                             </button>
                             <button className={`${styles.cta} ${styles.lastChild}`} onClick={handleNavNotFoundQuery} aria-label="open 404 query page">
                               <NotFoundQuery className={`${styles.ctaSVG}`} />
-                              404 Query
+                              404 Consulta
                             </button>
-                            <a href='https://github.com/gianlucajahn/react-ecommerce-store/commits/main' target="_blank"><button className={styles.cta} aria-label="Open commit log">
-                              <Git className={styles.ctaSVG} />
-                              Commit Log
-                            </button></a>
-                            <a href="https://github.com/gianlucajahn/react-ecommerce-store/blob/main/README.md#performance" target="_blank"><button className={`${styles.cta} ${styles.lastChild}`} aria-label="Open performance test results">
-                              <Performance className={`${styles.ctaSVG}`} />
-                              Performance
-                            </button></a>
-                            <a href="https://github.com/gianlucajahn/react-ecommerce-store/blob/main/README.md#technologies-used" target="_blank"><button className={`${styles.cta} ${styles.lastChild}`} aria-label="View technologies used"> 
-                              <img className={styles.technologies} src={require("../../Resources/image/whatruns.png")} alt="WhatRuns logo"/>
-                              Technologies
-                            </button></a>
-                            <a href="https://github.com/gianlucajahn/react-ecommerce-store/blob/main/README.md#sources" target="_blank"><button className={`${styles.cta} ${styles.lastChild}`} aria-label="View Sources">
-                              <Sources className={`${styles.ctaSVG}`} />
-                              Our Sources
-                            </button></a>
+
                         </div>
                     </div>
                 </div>

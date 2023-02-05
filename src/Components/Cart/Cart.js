@@ -4,15 +4,13 @@ import { ReactComponent as Right } from "../../Resources/image/arrowRight.svg";
 import { ReactComponent as Cross } from "../../Resources/image/cross.svg";
 import { motion, AnimatePresence } from "framer-motion";
 import AnimatedCart from '../../Containers/AnimatedPage/AnimatedCart';
-import AnimatedCard from '../../Containers/AnimatedPage/AnimatedCard';
+
 
 const Cart = props => {
     const {
         cartAmount,
         cart,
-        handleOpenCart,
         handleCloseCart,
-        cartDisplayed,
         handleHover,
         hoverState,
         clearCart,

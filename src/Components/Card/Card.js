@@ -1,18 +1,15 @@
 import styles from './Card.module.css';
 import React from 'react';
 import { ReactComponent as Like } from "../../Resources/image/like.svg";
-import { ReactComponent as Add } from "../../Resources/image/add.svg";
 import { motion } from "framer-motion";
 import AddToCart from '../AddToCart/AddToCart';
 import AddedToCart from '../AddedToCart/AddedToCart';
-import AnimatedCard from '../../Containers/AnimatedPage/AnimatedCard';
 import { useLocation } from 'react-router-dom';
 
 const Card = props => {
     const { 
         game,
         handleAddToCart,
-        handleHover,
         hoverState,
         handleLike,
         handleHoverGame,
@@ -25,7 +22,7 @@ const Card = props => {
         exit: { opacity: 0 },
     }
 
-    const location = useLocation();
+    
 
     return (
           <motion.div 

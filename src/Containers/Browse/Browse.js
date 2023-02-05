@@ -148,8 +148,8 @@ const Browse = props => {
               />
 
               <div className={styles.list}>
-                <h1>Trending and interesting</h1>
-                <p>Based on player counts and ratings</p>
+                <h1>Tendencias e interés</h1>
+                <p>Según el recuento y la clasificación de los jugadores</p>
 
                 <div className={styles.applied}>
                   <div className={styles.filterList}>
@@ -157,7 +157,7 @@ const Browse = props => {
                       className={styles.filterButton} 
                       aria-label="Current Filter"
                     >
-                      Filter by:
+                      Filtrar por:
                       <span> {currentFilter}</span>
                     </button>
                     <button 
@@ -165,12 +165,12 @@ const Browse = props => {
                       onClick={clearFilter} 
                       aria-label="Clear Filters"
                     >
-                      Clear Filter
+                      Limpiar Filtrar 
                     </button>
                   </div>
                   
                   <div className={styles.displayStyle}>
-                    <p>Display options:</p>
+                    <p>Mostrar opciones:</p>
                     <button 
                       className={styles.displayBtn} 
                       onClick={handleLayoutSwitch} 
