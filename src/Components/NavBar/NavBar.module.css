@@ -9,6 +9,8 @@
     align-items: center;
     padding: 5px 40px 2px 30px;
     z-index: 12;
+   ;
+    
 }
 
 form {
@@ -25,11 +27,13 @@ form button {
 .navbar_left {
     display: flex;
     gap: 50px;
+   
 }
 
 .navbar_right {
     display: flex;
     gap: 50px;
+    
 }
 
 .logodiv,
@@ -100,7 +104,7 @@ form button {
 
 .searchdiv input {
     margin-left: 55px;
-    background-color: #262626;
+    background-color: #131212;
     border: 1px transparent;
     border-radius: 8px;
     height: 35px;

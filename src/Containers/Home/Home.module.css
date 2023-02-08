@@ -15,7 +15,9 @@ html,
 body {
     margin: 0; 
     width: 100vw;
+    
 }
+
 
 .parent * {
     pointer-events: none;
@@ -176,7 +178,7 @@ a {
 }
 
 .intro {
-    color: rgb(185, 38, 38);
+    color: rgb(240, 247, 240);
     padding-left: 5px;
     font-family: "GT Regular";
     font-size: 19px;
@@ -186,11 +188,11 @@ a {
 .splash h1 {
     font-family: "GT Bold";
     font-size: 90px;
-    color: rgb(131, 187, 0);
+    color: rgb(28, 187, 0);
 }
 
 .home h2 {
-    color: rgb(195, 238, 6);
+    color: rgb(209, 255, 4);
     font-family: "GT Bold";
 }
 

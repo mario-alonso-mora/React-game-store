@@ -1,6 +1,6 @@
 .gamepage {
     height: 100vh;
-    background-color: #0f1011;
+    background-color: #010101f7;
 }
 
 .gamepageContent {
@@ -118,7 +118,7 @@ header h1 {
 
 .aboutBottom,
 .aboutBottomClosed {
-    background-color: #262626;
+    background-color: #a42a2a;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

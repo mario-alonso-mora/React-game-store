@@ -123,7 +123,7 @@ const Home = props => {
         <div className={styles.home}>
 
                 <video autoPlay muted loop className={styles.video}>
-                  <source src={require("../../Resources/image/pyke.mp4")} type="video/mp4" />
+                  <source src={require("../../Resources/image/Video Juegos - 89894.mp4")} type="video/mp4" />
                 </video>
 
                 <NavBar 
