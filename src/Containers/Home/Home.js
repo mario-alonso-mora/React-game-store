@@ -171,15 +171,6 @@ const Home = props => {
                               <Game className={styles.ctaSVG} />
                               Página del juego
                             </button>
-                            <button className={styles.cta} onClick={handleNavNotFoundPage} aria-label="Open 404 page">
-                              <NotFound className={styles.ctaSVG} />
-                              Pagina 404 error
-                            </button>
-                            <button className={`${styles.cta} ${styles.lastChild}`} onClick={handleNavNotFoundQuery} aria-label="open 404 query page">
-                              <NotFoundQuery className={`${styles.ctaSVG}`} />
-                              404 Consulta
-                            </button>
-
                         </div>
                     </div>
                 </div>

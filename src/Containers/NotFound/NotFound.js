@@ -76,10 +76,10 @@ useEffect(() => {
 
             <motion.div className={styles.container} variants={animations} initial="initial" animate="animate" exit="exit">
                 <div className={styles.notFoundContent}>
-                    <img className={styles.notFoundImg} src={require("../../Resources/image/404.png")} alt="Not Found Warning" />
+                  
                     <div className={styles.notFoundText}>
-                        <h2><span>{location.pathname.substring(22)}</span> is not available!</h2>
-                        <p>La página a la que ha intentado acceder no está disponible. En breve será redirigido a nuestra sección de navegación. Si cree que se trata de un error<span className={styles.contact}>contact us!</span></p>
+                        <h2><span>{location.pathname.substring(22)}</span> Now Loading!</h2>
+                        <p className={styles.h2}>Disfruta de la Tienda de VideoJuegos :D<span className={styles.contact}></span></p>
                     </div>
                 </div>
                 <motion.div className={styles.progressBar} variants={progress} initial="initial" animate="animate"></motion.div>
